@@ -1,0 +1,16 @@
+print("This is a simple calculator")
+print("\n choose any operation to perform \n Addition(+)\n Subtraction(-)\n Multiplication(*) \n Division(/)")
+c=input("\n The operation is")
+a=int(input("\n enter the first number"))
+b=int(input("\n enter the second number"))
+if(c=="+"):
+      print("The sum is",a+b)
+elif(c=="-"):
+    print("the difference is",a-b)
+elif(c=="-"):
+    print("the product is",a*b)
+elif(c=="-"):
+    print("the quotient is",a-b)
+else:
+    print("invalid operation")
+
